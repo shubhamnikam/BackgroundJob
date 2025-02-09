@@ -1,0 +1,6 @@
+@BackgroundJob.Producer_HostAddress = http://localhost:15100
+
+GET {{BackgroundJob.Producer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
